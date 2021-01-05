@@ -1,6 +1,6 @@
 version: "3"
 services:
-  nomo-poject:
+  CadCliente:
     image: webwil/nomo-poject
     build: .
     command: npm start
@@ -12,6 +12,7 @@ services:
       - db
   db:
     image: webwil/mongo
+    build: .
     volumes:
       - ./data:/data/db
     ports:
