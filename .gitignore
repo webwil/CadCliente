@@ -38,6 +38,7 @@ jspm_packages/
 
 # Data directories
 data/
+data/*
 
 # Typescript v1 declaration files
 typings/
